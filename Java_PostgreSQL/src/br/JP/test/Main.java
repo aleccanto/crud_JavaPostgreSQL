@@ -14,6 +14,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Scanner in2 = new Scanner(System.in);
+        System.out.print("Digite o nome da base de dados: ");
+        String db = in2.next();
         System.out.print("Digite a senha do banco de dados: ");
         String senha = in.next();
         Conexao c = new Conexao("postgres", "loja001",
