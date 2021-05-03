@@ -57,7 +57,7 @@ public class Conexao {
 
             System.out.println("Conexão realizada com sucesso!");
         } catch (Exception e) {
-            System.out.println("Conexão falou");
+            System.out.println("Conexão falhou");
         }
     }
 
